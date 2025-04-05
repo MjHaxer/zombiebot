@@ -1,7 +1,7 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext
 
-BOT_TOKEN = '7661745790:AAGlX3-3UwF05fhcachTLKZIiZb2wbusfsE'
+BOT_TOKEN = '7884424893:AAG2sVbxs4uRzEqEvotYr8jnXudiebq69dw'
 
 def start(update: Update, context: CallbackContext) -> None:
     user = update.effective_user
