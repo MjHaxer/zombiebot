@@ -15,7 +15,8 @@ def start(update: Update, context: CallbackContext) -> None:
         [InlineKeyboardButton("💎 Upgrade Plan", callback_data='upgrade')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    update.message.reply_text(f"👋 Welcome {user.first_name}!
+    update.message.reply_text(f"👋 Welcome {user.first_name}!")
+
 
 I am your Zombie Bundler bot. What would you like to do?", reply_markup=reply_markup)
 
