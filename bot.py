@@ -18,7 +18,8 @@ def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text(f"👋 Welcome {user.first_name}!")
 
 
-I am your Zombie Bundler bot. What would you like to do?", reply_markup=reply_markup)
+update.message.reply_text("I am your Zombie Bundler bot. What would you like to do?", reply_markup=reply_markup)
+
 
 def button(update: Update, context: CallbackContext) -> None:
     query = update.callback_query
